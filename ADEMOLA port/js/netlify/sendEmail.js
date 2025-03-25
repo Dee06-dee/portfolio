@@ -6,8 +6,8 @@ exports.handler = async (event) => {
         const { fullname, email, message } = JSON.parse(event.body);
 
         // 🔹 Replace these with your actual Mailgun credentials
-        const MAILGUN_API_KEY = "your-mailgun-api-key"; 
-        const MAILGUN_DOMAIN = "your-mailgun-domain"; // Example: sandbox123.mailgun.org
+        const MAILGUN_API_KEY = "9c80b9233dd45694c3233134275434bc-f6202374-746a9a12"; 
+        const MAILGUN_DOMAIN = "sandboxc5be0dd927604d8c8a8c9bce9487209d.mailgun.org"; // Example: sandbox123.mailgun.org
         const SENDER_EMAIL = `noreply@${MAILGUN_DOMAIN}`; // Example: noreply@sandbox123.mailgun.org
 
         // Prepare the data to send to Mailgun
